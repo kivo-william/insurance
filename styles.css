@@ -1,0 +1,161 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fundo cinza claro para evitar o branco puro */
+    color: #333; /* Texto em cinza escuro para legibilidade */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #007bff; /* Fundo azul vibrante */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para imagem do logo */
+.logo-image {
+    width: 80px;
+    height: auto;
+    border-radius: 25%; /* Torna a imagem redonda */
+    border: 2px solid #333; /* Borda escura ao redor da imagem */
+}
+
+/* Hero section (destaque) */
+.hero {
+    background-color: #0056b3; /* Azul mais escuro para destaque */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #28a745; /* Botão verde */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #218838; /* Efeito hover para o botão */
+}
+
+/* Seções de conteúdo */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Serviços */
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 14px;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
